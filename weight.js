@@ -1,4 +1,6 @@
 
+ document.getElementById('output').style.visibility ='hidden';
+
 document.getElementById('lbsInput').addEventListener('input', function(e){
     let lbs = e.target.value;
     console.log(lbs);
