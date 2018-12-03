@@ -1,8 +1,12 @@
 
 document.getElementById('lbsInput').addEventListener('input', function(e){
-    let pounds = e.target.value;
-    console.log(pounds);
+    let lbs = e.target.value;
+    console.log(lbs);
     console.log("123");
+
+    document.getElementById('gramsOutput').innerHTML= ML = lbs/0.0022046;
+
+    document.getElementById('ouncesOutput').innerHTML = TL = lbs*16;
 });
 
 
